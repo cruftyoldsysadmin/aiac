@@ -12,4 +12,3 @@ jobs:
       goreleaser_config: goreleaser.yml
       goreleaser_options: '--rm-dist --timeout 90m'
     secrets: inherit
-\n
