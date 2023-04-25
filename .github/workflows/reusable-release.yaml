@@ -59,4 +59,5 @@ jobs:
           version: v1.4.1
           args: release -f=${{ inputs.goreleaser_config}} ${{ inputs.goreleaser_options}}
         env:
-          GITHUB_TOKEN: ${{ secrets.CODESEE_ARCH_DIAG_API_TOKEN }}
+          #GITHUB_TOKEN: ${{ secrets.CODESEE_ARCH_DIAG_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
