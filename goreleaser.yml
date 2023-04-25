@@ -15,11 +15,11 @@ builds:
       - freebsd
     goarch:
       - amd64
-      - 386
-      - arm
+      # - 386
+      # - arm
       - arm64
-      - s390x
-      - ppc64le
+      # - s390x
+      # - ppc64le
     goarm:
       - 7
     ignore:
