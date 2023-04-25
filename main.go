@@ -13,7 +13,7 @@ import (
 	"github.com/briandowns/spinner"
 	"github.com/fatih/color"
 	"github.com/manifoldco/promptui"
-	"github.com/nomadops/aiac/v3/libaiac"
+	"github.com/cruftyoldsysadmin/aiac/v3/libaiac"
 	"github.com/rodaine/table"
 	"golang.design/x/clipboard"
 )
