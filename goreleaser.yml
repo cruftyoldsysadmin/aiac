@@ -37,28 +37,9 @@ archives:
     name_template: "{{.ProjectName}}_{{.Version}}_{{.Os}}-{{.Arch}}"
     replacements:
       amd64: 64bit
-      386: 32bit
-      arm: ARM
-      arm64: ARM64
-      ppc64le: PPC64LE
-      darwin: macOS
-      linux: Linux
-      openbsd: OpenBSD
-      netbsd: NetBSD
-      freebsd: FreeBSD
-      dragonfly: DragonFlyBSD
     files:
       - README.md
       - LICENSE
-brews:
-  -
-    tap:
-      owner: gofireflyio
-      name: homebrew-aiac
-    homepage: "https://github.com/cruftyoldsysadmin/aiac"
-    description: "Artificial Intelligence Infrastructure-as-Code Generator"
-    test: |
-      system "#{bin}/aiac", "--help"
 
 # dockers:
 #   - image_templates:
