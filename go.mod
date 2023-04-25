@@ -1,4 +1,4 @@
-module github.com/gofireflyio/aiac/v3
+module github.com/nomadops/aiac/v3
 
 go 1.17
 
