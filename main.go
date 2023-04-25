@@ -12,8 +12,8 @@ import (
 	"github.com/alecthomas/kong"
 	"github.com/briandowns/spinner"
 	"github.com/fatih/color"
+	"github.com/gofireflyio/aiac/v3/libaiac"
 	"github.com/manifoldco/promptui"
-	"github.com/cruftyoldsysadmin/aiac/v3/libaiac"
 	"github.com/rodaine/table"
 	"golang.design/x/clipboard"
 )

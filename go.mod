@@ -12,6 +12,8 @@ require (
 	golang.design/x/clipboard v0.7.0
 )
 
+require github.com/gofireflyio/aiac/v3 v3.0.0-20230425131626-a2f3a71f1f38
+
 require (
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect
